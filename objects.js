@@ -4,7 +4,7 @@ var playlist = {
   ['J Balvin']: 'x',
 }
 
-function updatePlaylist(playlist,['artist'],'song')= {
+function updatePlaylist(playlist,[artist],'song')= {
   playlist = {['artist']: 'song'};
   return playlist;
 }
