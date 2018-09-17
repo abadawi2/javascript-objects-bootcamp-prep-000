@@ -1,10 +1,8 @@
 var playlist = {
-  ['Major Lazer']: 'Get Free',
-  ['Camille Cabella']: 'Havana',
-  ['J Balvin']: 'x',
+  ['artistName']: 'songTitle',
 }
 
-function updatePlaylist(playlist,[artist],song) {
-  playlist = {['artist']: 'song'};
+function updatePlaylist(playlist,[artistName],songTitle) {
+  playlist = {['artistName']: 'songTitle'};
   return playlist;
 }
